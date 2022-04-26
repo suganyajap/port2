@@ -225,7 +225,8 @@ img{
 .home__content{
     grid-template-columns: .5fr 3fr;
     align-items: center;
-    padding-top: 5rem;
+    justify-content: center;
+    padding-top: 10rem;
 }
 .home__img{
     width: 200px;
@@ -238,6 +239,7 @@ img{
     width: 100%;
 }
 .home__data{
+    padding-left: 7rem;
     grid-column-start: 1;
     grid-column-end: 3;
 }
